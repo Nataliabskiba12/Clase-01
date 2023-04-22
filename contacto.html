@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clase-03 Formularios</title>
+</head>
+
+<body>
+    <header>
+        <h1>ASESORIA DE TURISMO</h1>
+        <img src="/IMAGEN HEADER.jpeg" width="100" alt="">
+        <nav>
+            <ul>
+                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="horarios.html">Horarios de Atención</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="sobre-mí.html">Sobre mí</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <center>
+            <h1>Formularios</h1>
+        </center>
+        <br />
+        <center>
+            <form>
+                <h3>Datos Personales</h3>
+                <label> Nombre/s</label><br />
+                <input type="text" name="nomb" /> <br />
+                <br />
+                <label>Apellido</label><br />
+                <input type="text" name="apel" /> <br /><br />
+                <label for="">Edad:</label><br>
+                <input type="number" name="edad" id="" maxlength="2"><br><br>
+                <b><label>Indique sexo: </label></b><br />
+                <label>Masculino</label>
+                <input type="radio" name="sexo" id="sexo" value="masculino" /><br />
+                <label for="">Femenino</label>
+                <input type="radio" name="sexo" id="sexo" value="femenino" /><br />
+                <label for="">Otro</label>
+                <input type="radio" name="sexo" id="sexo" value="otro" /><br /><br />
+                <b><label for="">Indique lugar de interés: </label></b><br />
+                <label for="">Tulum, México</label>
+                <input type="checkbox" name="intereses" value="Tulum, México" />
+                <br />
+                <label for="">Roatán, Honduras</label>
+                <input type="checkbox" name="intereses" value="Roatán, Honduras" />
+                <br />
+                <label for="">Manuel Antonio, Costa Rica</label>
+                <input type="checkbox" name="intereses" value="Manuel Antonio, Costa Rica" />
+                <br />
+                <label for="">San Juan del Sur, Nicaragua</label>
+                <input type="checkbox" name="intereses" value="San Juan del Sur, Nicaragua" /><br /><br />
+                <b><label for="">Deja un comentario: </label></b><br>
+                <textarea name="comentario" rows="5" cols="30" maxlength="20" /></textarea>
+            </form>
+        </center>
+    </main>
+    <footer>
+        <center>
+            <p> &copy; Natalia B Skiba - Todos los derechos reservados</p>
+        </center>
+    </footer>
+</body>
+
+</html>
