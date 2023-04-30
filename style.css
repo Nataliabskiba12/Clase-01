@@ -1,0 +1,43 @@
+/*HEADER*/
+
+.banner {
+    background-color: rgb(97, 160, 255);
+    /*color de fondo*/
+    height: 320px;
+    width: 100%;
+}
+
+
+/*FOOTER*/
+
+.bottom-bar {
+    background-color: rgb(97, 160, 255);
+    /*color de fondo*/
+    height: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+
+/*CONTACTO*/
+
+.contact {
+    border: 2px solid black;
+    padding: 50px;
+}
+
+
+/*HORARIOS*/
+
+.days {
+    font-weight: bold;
+    /*Negrita*/
+    font-size: 19px;
+    color: rgb(57, 122, 125);
+}
+
+.schedules {
+    font-style: italic;
+    /*cursiva*/
+    color: rgb(57, 122, 125);
+}
