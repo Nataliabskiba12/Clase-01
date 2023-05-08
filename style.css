@@ -3,8 +3,24 @@
 .banner {
     background-color: rgb(97, 160, 255);
     /*color de fondo*/
-    height: 320px;
+    height: 100px;
     width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.banner ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    /*se ponen en fila*/
+    gap: 40px;
+    /* ajusta la separación entre los elementos de la lista */
+}
+
+.banner img {
+    width: 210px;
+    height: 210px;
 }
 
 
@@ -26,13 +42,22 @@
     padding: 50px;
 }
 
+.contact button {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
 
 /*HORARIOS*/
+
+.table-title {
+    font-size: 28px;
+}
 
 .days {
     font-weight: bold;
     /*Negrita*/
-    font-size: 19px;
+    font-size: 20px;
     color: rgb(57, 122, 125);
 }
 
@@ -40,4 +65,5 @@
     font-style: italic;
     /*cursiva*/
     color: rgb(57, 122, 125);
+    font-size: 17px;
 }
